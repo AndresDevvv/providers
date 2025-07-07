@@ -6,6 +6,7 @@ import { upcloudScraper } from '@/providers/embeds/upcloud';
 import { autoembedScraper } from '@/providers/sources/autoembed';
 import { catflixScraper } from '@/providers/sources/catflix';
 import { ee3Scraper } from '@/providers/sources/ee3';
+import { fmoviesScraper } from '@/providers/sources/fmovies';
 import { fsharetvScraper } from '@/providers/sources/fsharetv';
 import { insertunitScraper } from '@/providers/sources/insertunit';
 import { mp4hydraScraper } from '@/providers/sources/mp4hydra';
@@ -95,6 +96,7 @@ export function gatherAllSources(): Array<Sourcerer> {
     coitusScraper,
     streamboxScraper,
     nunflixScraper,
+    fmoviesScraper,
     EightStreamScraper,
     wecimaScraper,
     animeflvScraper,
